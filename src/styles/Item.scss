@@ -8,11 +8,11 @@
   border-bottom: 1px solid $white3;
   transition: background-color 0.3s ease;
   font-size: large;
-
+  max-width: 300px;
+  overflow: hidden;
   &.completed {
     text-decoration: line-through;
     color: $gray1;
-    
   }
 
 
