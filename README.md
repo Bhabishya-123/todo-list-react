@@ -9,6 +9,7 @@
 4.Setup Instructions
 5.Implementation Details
 6.File Structure
+7.Live Demo
 /*******************************/
 
 
@@ -44,6 +45,11 @@ This feature-rich TODO List Application is built using React, TypeScript, and Sa
 📱 Responsive and Reusable Design
 -Fully responsive design built using Sass with reusable variables and mixins.
 -Mobile-friendly layout that adapts seamlessly to various screen sizes.
+
+
+🌐 Live Demo
+Check out the live version of the application here:
+[ToDo Application](https://todotypescriptredux.netlify.app/)
 
 
 🛠️ Technologies Used
