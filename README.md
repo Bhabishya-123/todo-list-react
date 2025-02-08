@@ -74,8 +74,8 @@ Make sure you have the following installed:
 
 Steps to Run the Project
 1.Clone the repository:
-git clone <repository-url>
-cd <repository-directory>
+git clone <git@github.com:Bhabishya-123/todo-list-react.git>
+cd <todo-list-react>
 
 2.Install dependencies:
 npm install
