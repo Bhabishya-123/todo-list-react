@@ -21,7 +21,7 @@ const Form: React.FC = () => {
         type="text"
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
-        placeholder="Add an item"
+        placeholder="Add a task"
       />
       <button type="submit">+</button>
     </form>
