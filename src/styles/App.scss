@@ -1,0 +1,24 @@
+@import 'mixins';
+@import 'variables';
+.app {
+  @include center;
+  justify-content: start;
+  box-shadow: 4px 2px 2px 2px $purple3;
+  border-radius: 20px;
+  margin-top: 45px;
+  width: 400px;
+  min-height: 86vh;
+  background-color: $white1;
+  
+  h1 {
+    text-align: center;
+    width: calc(100% + 30px);
+    border: solid;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    background-color: $purple1;
+    color: $white1;
+    box-sizing: border-box;
+  }
+}
+

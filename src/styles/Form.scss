@@ -1,0 +1,28 @@
+@import 'mixins';
+@import 'variables';
+.form {
+  @include center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+
+  input {
+    border: none;
+    width: clamp(200px,400px,100%);
+    border-bottom: 2px solid $red2;
+    border-radius: 5px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    color: $black2;
+    font-weight: 500;
+    outline: none;
+  }
+
+  button {
+    background-color: $purple1;
+    &:active{
+      color: $white2;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+@import 'mixins';
+.list {
+  @include center;
+  list-style-type: none;
+  padding: 0;
+}

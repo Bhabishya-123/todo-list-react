@@ -1,0 +1,29 @@
+@import 'mixins';
+@import 'variables';
+.item {
+ @include center;
+  flex-direction:row;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid $white3;
+  transition: background-color 0.3s ease;
+  font-size: large;
+
+  &.completed {
+    text-decoration: line-through;
+    color: $gray1;
+    
+  }
+
+
+  button {
+    background-color: $purple2;
+    width: 20px;
+    height: 20px;
+    @include center;
+    &:hover {
+      background-color: $red1;
+    }
+  }
+
+}

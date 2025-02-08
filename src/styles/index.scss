@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'mixins';
+body {
+  margin: 0;
+  font-family: $primary-font;
+  @include center;
+  background-color: $purple4;
+}
+
+//global button
+button{
+  font-size: large;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  border-radius: 10%;
+  border: none;
+  color: $white1;
+  cursor: pointer;
+}
+
