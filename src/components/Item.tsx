@@ -45,7 +45,10 @@ const Item: React.FC<ItemProps> = ({
           }}
         />
       ) : (
-        <span className="item" onDoubleClick={() => setIsEditing(true)}>
+        <span
+          className="item item-text"
+          onDoubleClick={() => setIsEditing(true)}
+        >
           {item.text}
         </span>
       )}
