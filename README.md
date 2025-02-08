@@ -73,15 +73,16 @@ Make sure you have the following installed:
 --npm or yarn
 
 Steps to Run the Project
-1.Clone the repository:
-git clone <git@github.com:Bhabishya-123/todo-list-react.git>
-cd <todo-list-react>
+1.Clone the Repository:
+--git clone git@github.com:Bhabishya-123/todo-list-react.git
+--cd todo-list-react
+
 
 2.Install dependencies:
-npm install
+--npm install
 
 3.Start the development server:
-npm start
+--npm start
 
 4.Open the application in your browser at:
 http://localhost:3000
