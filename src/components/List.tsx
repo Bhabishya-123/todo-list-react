@@ -17,7 +17,6 @@ const List: React.FC = () => {
   const filter = useSelector((state: RootState) => state.tasks.filter);
   const dispatch = useDispatch();
 
-  // State for context menu
   const [contextMenu, setContextMenu] = useState<{
     visible: boolean;
     position: { x: number; y: number };
@@ -43,7 +42,7 @@ const List: React.FC = () => {
   const filteredItems = items.filter((item) => {
     if (filter === "completed") return item.completed;
     if (filter === "incomplete") return !item.completed;
-    return true; // "all"
+    return true;
   });
 
   const moveItem = (dragIndex: number, hoverIndex: number) => {
